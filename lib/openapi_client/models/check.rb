@@ -1,7 +1,7 @@
 =begin
 #Lob
 
-#The Lob API is organized around REST. Our API is designed to have predictable, resource-oriented URLs and uses HTTP response codes to indicate any API errors. <p> Looking for our [previous documentation](https://lob.github.io/legacy-docs/)?
+#The Lob API is organized around REST. Our API is designed to have predictable, resource-oriented URLs and uses HTTP response codes to indicate any API errors. <p> Looking for our [previous documentation](https://lob.github.io/legacy-docs/)? 
 
 The version of the OpenAPI document: 1.3.0
 Contact: lob-openapi@lob.com
@@ -22,7 +22,7 @@ module Lob
 
     attr_accessor :from
 
-    # An internal description that identifies this resource. Must be no longer than 255 characters.
+    # An internal description that identifies this resource. Must be no longer than 255 characters. 
     attr_accessor :description
 
     # Use metadata to store custom information for tagging and labeling back to your internal systems. Must be an object with up to 20 key-value pairs. Keys must be at most 40 characters and values must be at most 500 characters. Neither can contain the characters `\"` and `\\`. i.e. '{\"customer_id\" : \"NEWYORK2015\"}' Nested objects are not supported.  See [Metadata](#section/Metadata) for more information.
